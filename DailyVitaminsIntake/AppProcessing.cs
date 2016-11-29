@@ -7,7 +7,8 @@ namespace DailyVitaminsIntake
 {     
     class AppProcessing : IDisposable
         {
-            public TaskService taskService;
+        #region Public Variables
+        public TaskService taskService;
             public DateTime dt = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 19, 00, 00);
             NotifyIcon ico = new NotifyIcon()
             {
@@ -18,8 +19,8 @@ namespace DailyVitaminsIntake
                 Icon = System.Drawing.SystemIcons.Question,
                 Visible = true,
             };
-         
-            public void ProccessApp()
+        #endregion
+        public void ProccessApp()
             {
                 using (taskService = new TaskService())
                 {
@@ -40,8 +41,7 @@ namespace DailyVitaminsIntake
 
             void IDisposable.Dispose()
             {
-            taskService.Dispose();
-            
+            taskService.Dispose();        
             }
     }
 }
