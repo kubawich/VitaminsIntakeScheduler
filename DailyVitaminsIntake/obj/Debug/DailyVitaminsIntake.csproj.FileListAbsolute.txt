@@ -1,0 +1,13 @@
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\DailyVitaminsIntake.exe.config
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\DailyVitaminsIntake.exe
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\DailyVitaminsIntake.pdb
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\obj\Debug\DailyVitaminsIntake.csprojResolveAssemblyReference.cache
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\obj\Debug\DailyVitaminsIntake.exe
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\obj\Debug\DailyVitaminsIntake.pdb
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\Microsoft.Win32.TaskScheduler.dll
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\Microsoft.Win32.TaskScheduler.xml
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\de\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\es\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\fr\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\it\Microsoft.Win32.TaskScheduler.resources.dll
+C:\Users\Kuba\Desktop\Projekty\DailyVitaminsIntake\DailyVitaminsIntake\bin\Debug\zh-CN\Microsoft.Win32.TaskScheduler.resources.dll
