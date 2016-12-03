@@ -9,13 +9,16 @@ namespace DailyVitaminsIntake
         {
         #region Public Variables
         public TaskService taskService;
-            public DateTime dt = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 19, 00, 00);
+        private static string title = "Weź dzisiejszą porcję kreatyny";
+        private static string content = "Czy wziąłeś już dzisiaj swoją porcję kreatyny?";
+        private static string text = "Przypomnienie nt. witaminek :)))";
+        public DateTime dt = new DateTime(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day, 19, 00, 00);
             NotifyIcon ico = new NotifyIcon()
             {
                 BalloonTipIcon = ToolTipIcon.Info,
-                BalloonTipTitle = "Weź dzisiejszą porcję kreatyny",
-                BalloonTipText = "Czy wziąłeś już dzisiaj swoją porcję kreatyny?",
-                Text = "Przypomnienie nt. witaminek :)))",
+                BalloonTipTitle = title,
+                BalloonTipText = content,
+                Text = text,
                 Icon = System.Drawing.SystemIcons.Question,
                 Visible = true,
             };
@@ -41,7 +44,7 @@ namespace DailyVitaminsIntake
 
             void IDisposable.Dispose()
             {
-            taskService.Dispose();        
+                taskService.Dispose();        
             }
     }
 }
